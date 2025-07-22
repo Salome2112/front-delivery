@@ -1,0 +1,43 @@
+.fondo-oscuro {
+  background-color: #121212; 
+  color: #f0f0f0;
+}
+
+.item-pedido-oscuro {
+  --background: #1e1e1e;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+  padding: 10px;
+}
+
+.cliente {
+  color: #00bcd4; 
+  font-weight: bold;
+}
+
+.estado {
+  color: #ffca28;
+}
+
+.total {
+  color: #66bb6a; // verde
+  font-weight: bold;
+}
+
+.fecha {
+  color: #b0bec5; 
+  font-size: 0.9em;
+}
+
+.select-estado {
+  --placeholder-color: #90caf9; 
+  --color: #ffffff;
+  --background: #333;
+  border-radius: 8px;
+}
+
+.sin-pedidos p {
+  color: #757575;
+  font-style: italic;
+}
