@@ -1,6 +1,6 @@
 :host {
   ion-content {
-    background-color: #000000; 
+    background-color: #2e2e2e; 
     color: #e0e0e0;
   }
 
@@ -31,12 +31,12 @@
   }
 
   ion-label p:nth-of-type(3) { 
-    color: #9e9e9e; 
+    color: #887b7b; 
     font-size: 0.85em;
   }
 
   ion-select {
-    --background: #2e2e2e;
+    --background: #4e4b4b;
     --color: #ffffff;
     --placeholder-color: #cccccc;
     border-radius: 6px;
