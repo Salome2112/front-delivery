@@ -1,43 +1,51 @@
-.fondo-oscuro {
-  background-color: #121212; 
-  color: #f0f0f0;
-}
+:host {
+  ion-content {
+    background-color: #000000; // Fondo negro absoluto
+    color: #e0e0e0;
+  }
 
-.item-pedido-oscuro {
-  --background: #1e1e1e;
-  border-radius: 12px;
-  margin-bottom: 15px;
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-  padding: 10px;
-}
+  ion-list {
+    background-color: transparent;
+  }
 
-.cliente {
-  color: #00bcd4; 
-  font-weight: bold;
-}
+  ion-item {
+    --background: #1e1e1e; // Fondo gris oscuro para los ítems
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+    color: #f5f5f5;
+  }
 
-.estado {
-  color: #ffca28;
-}
+  ion-label h2 {
+    color: #4fc3f7; // Azul claro para "Cliente"
+    font-weight: bold;
+  }
 
-.total {
-  color: #66bb6a; // verde
-  font-weight: bold;
-}
+  ion-label p:nth-of-type(1) { // Estado
+    color: #ffca28; // Amarillo suave
+  }
 
-.fecha {
-  color: #b0bec5; 
-  font-size: 0.9em;
-}
+  ion-label p:nth-of-type(2) { // Total
+    color: #81c784; // Verde claro
+    font-weight: bold;
+  }
 
-.select-estado {
-  --placeholder-color: #90caf9; 
-  --color: #ffffff;
-  --background: #333;
-  border-radius: 8px;
-}
+  ion-label p:nth-of-type(3) { // Fecha
+    color: #9e9e9e; // Gris claro
+    font-size: 0.85em;
+  }
 
-.sin-pedidos p {
-  color: #757575;
-  font-style: italic;
+  ion-select {
+    --background: #2e2e2e;
+    --color: #ffffff;
+    --placeholder-color: #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .ion-text-center p {
+    color: #757575; // Texto cuando no hay pedidos
+    font-style: italic;
+    margin-top: 20px;
+  }
 }
